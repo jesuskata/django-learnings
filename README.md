@@ -1,12 +1,15 @@
-# This is a README file to include inside all the commands and important learnings from Django framework
+# Django Learnings
 
-- [This is a README file to include inside all the commands and important learnings from Django framework](#this-is-a-readme-file-to-include-inside-all-the-commands-and-important-learnings-from-django-framework)
+This is a README file to include inside all the commands and important learnings from Django framework
+
+- [Django Learnings](#django-learnings)
   - [Important commands](#important-commands)
     - [How to create a Virtual Environment](#how-to-create-a-virtual-environment)
     - [Watching our installed libraries](#watching-our-installed-libraries)
     - [Installing Django and creating a new project](#installing-django-and-creating-a-new-project)
     - [Debugging tool](#debugging-tool)
     - [Creating an application](#creating-an-application)
+  - [Theory](#theory)
     - [Template System](#template-system)
     - [Design pattern](#design-pattern)
 
@@ -66,6 +69,8 @@ Inside your actual project folder you can do:
 ./manage.py startapp posts
 ```
 
+## Theory
+
 ### Template System
 
 You can see more in [here](https://docs.djangoproject.com/en/2.2/ref/templates/builtins/)
@@ -89,6 +94,8 @@ _controller_: manage the logic of the request. It knows what to do, and what tem
 _model_: is in charge to define the data structure, the access to them and the validation.
 
 _view_: is in charge to see how to present the data, to show them to the user.
+
+![MVC Image](assets/mvc-image.png)
 
 **Django** use a design pattern called the MTV (Model Template View).
 
